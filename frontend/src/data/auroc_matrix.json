@@ -1,0 +1,107 @@
+[
+  {
+    "category": "bottle",
+    "Autoencoder": 0.8254,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.9984,
+    "PatchCore": 1.0
+  },
+  {
+    "category": "cable",
+    "Autoencoder": 0.5067,
+    "EfficientNet-B0": 0.9996,
+    "PaDiM": 0.8178,
+    "PatchCore": 0.9876
+  },
+  {
+    "category": "capsule",
+    "Autoencoder": 0.6508,
+    "EfficientNet-B0": 0.9996,
+    "PaDiM": 0.8728,
+    "PatchCore": 0.9422
+  },
+  {
+    "category": "carpet",
+    "Autoencoder": 0.4177,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.9358,
+    "PatchCore": 0.9655
+  },
+  {
+    "category": "grid",
+    "Autoencoder": 0.8822,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.9023,
+    "PatchCore": 0.9507
+  },
+  {
+    "category": "hazelnut",
+    "Autoencoder": 0.9036,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.9254,
+    "PatchCore": 1.0
+  },
+  {
+    "category": "leather",
+    "Autoencoder": 0.5068,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 1.0,
+    "PatchCore": 1.0
+  },
+  {
+    "category": "metal_nut",
+    "Autoencoder": 0.5024,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.9736,
+    "PatchCore": 0.9956
+  },
+  {
+    "category": "pill",
+    "Autoencoder": 0.754,
+    "EfficientNet-B0": 0.9978,
+    "PaDiM": 0.7823,
+    "PatchCore": 0.9097
+  },
+  {
+    "category": "screw",
+    "Autoencoder": 0.8764,
+    "EfficientNet-B0": 0.9977,
+    "PaDiM": 0.8098,
+    "PatchCore": 0.958
+  },
+  {
+    "category": "tile",
+    "Autoencoder": 0.6263,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.912,
+    "PatchCore": 0.9975
+  },
+  {
+    "category": "toothbrush",
+    "Autoencoder": 0.8444,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.9056,
+    "PatchCore": 0.925
+  },
+  {
+    "category": "transistor",
+    "Autoencoder": 0.5748,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.9142,
+    "PatchCore": 0.9921
+  },
+  {
+    "category": "wood",
+    "Autoencoder": 0.9184,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.9912,
+    "PatchCore": 0.9965
+  },
+  {
+    "category": "zipper",
+    "Autoencoder": 0.5016,
+    "EfficientNet-B0": 1.0,
+    "PaDiM": 0.8317,
+    "PatchCore": 0.9519
+  }
+]

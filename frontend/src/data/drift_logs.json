@@ -1,0 +1,407 @@
+[
+  {
+    "category": "bottle",
+    "stream": "clean_normal_only",
+    "n_images": 20,
+    "embedding_distance_score": 0.9197,
+    "kl_divergence_score": 0.0041,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "bottle",
+    "stream": "test_natural_mixed",
+    "n_images": 83,
+    "embedding_distance_score": 2.1256,
+    "kl_divergence_score": 2.4768,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.13 (threshold=1.5); kl_divergence=2.48 (threshold=0.5)"
+  },
+  {
+    "category": "bottle",
+    "stream": "corrupted_production",
+    "n_images": 83,
+    "embedding_distance_score": 2.4522,
+    "kl_divergence_score": 20.4123,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.45 (threshold=1.5); kl_divergence=20.41 (threshold=0.5)"
+  },
+  {
+    "category": "cable",
+    "stream": "clean_normal_only",
+    "n_images": 58,
+    "embedding_distance_score": 1.0352,
+    "kl_divergence_score": 0.0585,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "cable",
+    "stream": "test_natural_mixed",
+    "n_images": 150,
+    "embedding_distance_score": 1.6015,
+    "kl_divergence_score": 0.4046,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=1.60 (threshold=1.5)"
+  },
+  {
+    "category": "cable",
+    "stream": "corrupted_production",
+    "n_images": 150,
+    "embedding_distance_score": 2.0744,
+    "kl_divergence_score": 6.552,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.07 (threshold=1.5); kl_divergence=6.55 (threshold=0.5)"
+  },
+  {
+    "category": "capsule",
+    "stream": "clean_normal_only",
+    "n_images": 23,
+    "embedding_distance_score": 1.0523,
+    "kl_divergence_score": 0.0085,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "capsule",
+    "stream": "test_natural_mixed",
+    "n_images": 132,
+    "embedding_distance_score": 1.678,
+    "kl_divergence_score": 0.8907,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=1.68 (threshold=1.5); kl_divergence=0.89 (threshold=0.5)"
+  },
+  {
+    "category": "capsule",
+    "stream": "corrupted_production",
+    "n_images": 132,
+    "embedding_distance_score": 2.286,
+    "kl_divergence_score": 21.065,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.29 (threshold=1.5); kl_divergence=21.06 (threshold=0.5)"
+  },
+  {
+    "category": "carpet",
+    "stream": "clean_normal_only",
+    "n_images": 28,
+    "embedding_distance_score": 1.1963,
+    "kl_divergence_score": 0.3711,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "carpet",
+    "stream": "test_natural_mixed",
+    "n_images": 117,
+    "embedding_distance_score": 2.4752,
+    "kl_divergence_score": 0.9175,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.48 (threshold=1.5); kl_divergence=0.92 (threshold=0.5)"
+  },
+  {
+    "category": "carpet",
+    "stream": "corrupted_production",
+    "n_images": 117,
+    "embedding_distance_score": 2.7215,
+    "kl_divergence_score": 1.7833,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.72 (threshold=1.5); kl_divergence=1.78 (threshold=0.5)"
+  },
+  {
+    "category": "grid",
+    "stream": "clean_normal_only",
+    "n_images": 21,
+    "embedding_distance_score": 1.1384,
+    "kl_divergence_score": 0.1214,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "grid",
+    "stream": "test_natural_mixed",
+    "n_images": 78,
+    "embedding_distance_score": 1.6941,
+    "kl_divergence_score": 0.7843,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=1.69 (threshold=1.5); kl_divergence=0.78 (threshold=0.5)"
+  },
+  {
+    "category": "grid",
+    "stream": "corrupted_production",
+    "n_images": 78,
+    "embedding_distance_score": 1.6762,
+    "kl_divergence_score": 1.9461,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=1.68 (threshold=1.5); kl_divergence=1.95 (threshold=0.5)"
+  },
+  {
+    "category": "hazelnut",
+    "stream": "clean_normal_only",
+    "n_images": 40,
+    "embedding_distance_score": 0.9294,
+    "kl_divergence_score": 0.1499,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "hazelnut",
+    "stream": "test_natural_mixed",
+    "n_images": 110,
+    "embedding_distance_score": 1.339,
+    "kl_divergence_score": 1.5998,
+    "drift_alert": true,
+    "alert_reasons": "kl_divergence=1.60 (threshold=0.5)"
+  },
+  {
+    "category": "hazelnut",
+    "stream": "corrupted_production",
+    "n_images": 110,
+    "embedding_distance_score": 1.533,
+    "kl_divergence_score": 12.0753,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=1.53 (threshold=1.5); kl_divergence=12.08 (threshold=0.5)"
+  },
+  {
+    "category": "leather",
+    "stream": "clean_normal_only",
+    "n_images": 32,
+    "embedding_distance_score": 1.2672,
+    "kl_divergence_score": 0.0163,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "leather",
+    "stream": "test_natural_mixed",
+    "n_images": 124,
+    "embedding_distance_score": 2.8997,
+    "kl_divergence_score": 1.7872,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.90 (threshold=1.5); kl_divergence=1.79 (threshold=0.5)"
+  },
+  {
+    "category": "leather",
+    "stream": "corrupted_production",
+    "n_images": 124,
+    "embedding_distance_score": 3.4741,
+    "kl_divergence_score": 14.7567,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=3.47 (threshold=1.5); kl_divergence=14.76 (threshold=0.5)"
+  },
+  {
+    "category": "metal_nut",
+    "stream": "clean_normal_only",
+    "n_images": 22,
+    "embedding_distance_score": 1.0348,
+    "kl_divergence_score": 0.1235,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "metal_nut",
+    "stream": "test_natural_mixed",
+    "n_images": 115,
+    "embedding_distance_score": 1.9629,
+    "kl_divergence_score": 2.4705,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=1.96 (threshold=1.5); kl_divergence=2.47 (threshold=0.5)"
+  },
+  {
+    "category": "metal_nut",
+    "stream": "corrupted_production",
+    "n_images": 115,
+    "embedding_distance_score": 2.266,
+    "kl_divergence_score": 63.8673,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.27 (threshold=1.5); kl_divergence=63.87 (threshold=0.5)"
+  },
+  {
+    "category": "pill",
+    "stream": "clean_normal_only",
+    "n_images": 26,
+    "embedding_distance_score": 1.0061,
+    "kl_divergence_score": 0.0054,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "pill",
+    "stream": "test_natural_mixed",
+    "n_images": 167,
+    "embedding_distance_score": 2.2982,
+    "kl_divergence_score": 2.1012,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.30 (threshold=1.5); kl_divergence=2.10 (threshold=0.5)"
+  },
+  {
+    "category": "pill",
+    "stream": "corrupted_production",
+    "n_images": 167,
+    "embedding_distance_score": 2.044,
+    "kl_divergence_score": 11.5611,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.04 (threshold=1.5); kl_divergence=11.56 (threshold=0.5)"
+  },
+  {
+    "category": "screw",
+    "stream": "clean_normal_only",
+    "n_images": 41,
+    "embedding_distance_score": 1.1249,
+    "kl_divergence_score": 0.051,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "screw",
+    "stream": "test_natural_mixed",
+    "n_images": 160,
+    "embedding_distance_score": 1.1272,
+    "kl_divergence_score": 0.101,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "screw",
+    "stream": "corrupted_production",
+    "n_images": 160,
+    "embedding_distance_score": 1.3643,
+    "kl_divergence_score": 11.8668,
+    "drift_alert": true,
+    "alert_reasons": "kl_divergence=11.87 (threshold=0.5)"
+  },
+  {
+    "category": "tile",
+    "stream": "clean_normal_only",
+    "n_images": 33,
+    "embedding_distance_score": 0.941,
+    "kl_divergence_score": 0.1611,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "tile",
+    "stream": "test_natural_mixed",
+    "n_images": 117,
+    "embedding_distance_score": 1.9027,
+    "kl_divergence_score": 1.0167,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=1.90 (threshold=1.5); kl_divergence=1.02 (threshold=0.5)"
+  },
+  {
+    "category": "tile",
+    "stream": "corrupted_production",
+    "n_images": 117,
+    "embedding_distance_score": 2.0916,
+    "kl_divergence_score": 6.844,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.09 (threshold=1.5); kl_divergence=6.84 (threshold=0.5)"
+  },
+  {
+    "category": "toothbrush",
+    "stream": "clean_normal_only",
+    "n_images": 12,
+    "embedding_distance_score": 1.0234,
+    "kl_divergence_score": 0.0013,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "toothbrush",
+    "stream": "test_natural_mixed",
+    "n_images": 42,
+    "embedding_distance_score": 1.2855,
+    "kl_divergence_score": 0.182,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "toothbrush",
+    "stream": "corrupted_production",
+    "n_images": 42,
+    "embedding_distance_score": 1.5075,
+    "kl_divergence_score": 10.2703,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=1.51 (threshold=1.5); kl_divergence=10.27 (threshold=0.5)"
+  },
+  {
+    "category": "transistor",
+    "stream": "clean_normal_only",
+    "n_images": 60,
+    "embedding_distance_score": 1.0114,
+    "kl_divergence_score": 0.6864,
+    "drift_alert": true,
+    "alert_reasons": "kl_divergence=0.69 (threshold=0.5)"
+  },
+  {
+    "category": "transistor",
+    "stream": "test_natural_mixed",
+    "n_images": 100,
+    "embedding_distance_score": 1.2877,
+    "kl_divergence_score": 1.15,
+    "drift_alert": true,
+    "alert_reasons": "kl_divergence=1.15 (threshold=0.5)"
+  },
+  {
+    "category": "transistor",
+    "stream": "corrupted_production",
+    "n_images": 100,
+    "embedding_distance_score": 2.0507,
+    "kl_divergence_score": 5.1844,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.05 (threshold=1.5); kl_divergence=5.18 (threshold=0.5)"
+  },
+  {
+    "category": "wood",
+    "stream": "clean_normal_only",
+    "n_images": 19,
+    "embedding_distance_score": 1.037,
+    "kl_divergence_score": 0.4602,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "wood",
+    "stream": "test_natural_mixed",
+    "n_images": 79,
+    "embedding_distance_score": 2.0259,
+    "kl_divergence_score": 3.2276,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.03 (threshold=1.5); kl_divergence=3.23 (threshold=0.5)"
+  },
+  {
+    "category": "wood",
+    "stream": "corrupted_production",
+    "n_images": 79,
+    "embedding_distance_score": 2.4013,
+    "kl_divergence_score": 20.6962,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=2.40 (threshold=1.5); kl_divergence=20.70 (threshold=0.5)"
+  },
+  {
+    "category": "zipper",
+    "stream": "clean_normal_only",
+    "n_images": 32,
+    "embedding_distance_score": 0.9945,
+    "kl_divergence_score": 0.1056,
+    "drift_alert": false,
+    "alert_reasons": ""
+  },
+  {
+    "category": "zipper",
+    "stream": "test_natural_mixed",
+    "n_images": 151,
+    "embedding_distance_score": 3.6577,
+    "kl_divergence_score": 0.4432,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=3.66 (threshold=1.5)"
+  },
+  {
+    "category": "zipper",
+    "stream": "corrupted_production",
+    "n_images": 151,
+    "embedding_distance_score": 3.1988,
+    "kl_divergence_score": 0.8473,
+    "drift_alert": true,
+    "alert_reasons": "embedding_distance=3.20 (threshold=1.5); kl_divergence=0.85 (threshold=0.5)"
+  }
+]

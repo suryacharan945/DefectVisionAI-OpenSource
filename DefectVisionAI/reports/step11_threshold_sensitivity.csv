@@ -1,0 +1,9 @@
+uncertainty_threshold,n_flagged,pct_of_dataset,errors_captured,pct_of_total_errors_captured
+0.1,168,9.7,61,48.0
+0.2,133,7.7,48,37.8
+0.3,103,6.0,38,29.9
+0.4,82,4.8,32,25.2
+0.5,67,3.9,27,21.3
+0.6,48,2.8,21,16.5
+0.7,36,2.1,16,12.6
+0.8,21,1.2,9,7.1

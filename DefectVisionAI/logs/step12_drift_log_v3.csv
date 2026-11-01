@@ -1,0 +1,46 @@
+category,stream,n_images,embedding_distance_score,kl_divergence_score,drift_alert,alert_reasons
+bottle,clean_normal_only,20,0.9197,0.0041,False,
+bottle,test_natural_mixed,83,2.1256,2.4768,True,embedding_distance=2.13 (threshold=1.5); kl_divergence=2.48 (threshold=0.5)
+bottle,corrupted_production,83,2.4522,20.4123,True,embedding_distance=2.45 (threshold=1.5); kl_divergence=20.41 (threshold=0.5)
+cable,clean_normal_only,58,1.0352,0.0585,False,
+cable,test_natural_mixed,150,1.6015,0.4046,True,embedding_distance=1.60 (threshold=1.5)
+cable,corrupted_production,150,2.0744,6.552,True,embedding_distance=2.07 (threshold=1.5); kl_divergence=6.55 (threshold=0.5)
+capsule,clean_normal_only,23,1.0523,0.0085,False,
+capsule,test_natural_mixed,132,1.678,0.8907,True,embedding_distance=1.68 (threshold=1.5); kl_divergence=0.89 (threshold=0.5)
+capsule,corrupted_production,132,2.286,21.065,True,embedding_distance=2.29 (threshold=1.5); kl_divergence=21.06 (threshold=0.5)
+carpet,clean_normal_only,28,1.1963,0.3711,False,
+carpet,test_natural_mixed,117,2.4752,0.9175,True,embedding_distance=2.48 (threshold=1.5); kl_divergence=0.92 (threshold=0.5)
+carpet,corrupted_production,117,2.7215,1.7833,True,embedding_distance=2.72 (threshold=1.5); kl_divergence=1.78 (threshold=0.5)
+grid,clean_normal_only,21,1.1384,0.1214,False,
+grid,test_natural_mixed,78,1.6941,0.7843,True,embedding_distance=1.69 (threshold=1.5); kl_divergence=0.78 (threshold=0.5)
+grid,corrupted_production,78,1.6762,1.9461,True,embedding_distance=1.68 (threshold=1.5); kl_divergence=1.95 (threshold=0.5)
+hazelnut,clean_normal_only,40,0.9294,0.1499,False,
+hazelnut,test_natural_mixed,110,1.339,1.5998,True,kl_divergence=1.60 (threshold=0.5)
+hazelnut,corrupted_production,110,1.533,12.0753,True,embedding_distance=1.53 (threshold=1.5); kl_divergence=12.08 (threshold=0.5)
+leather,clean_normal_only,32,1.2672,0.0163,False,
+leather,test_natural_mixed,124,2.8997,1.7872,True,embedding_distance=2.90 (threshold=1.5); kl_divergence=1.79 (threshold=0.5)
+leather,corrupted_production,124,3.4741,14.7567,True,embedding_distance=3.47 (threshold=1.5); kl_divergence=14.76 (threshold=0.5)
+metal_nut,clean_normal_only,22,1.0348,0.1235,False,
+metal_nut,test_natural_mixed,115,1.9629,2.4705,True,embedding_distance=1.96 (threshold=1.5); kl_divergence=2.47 (threshold=0.5)
+metal_nut,corrupted_production,115,2.266,63.8673,True,embedding_distance=2.27 (threshold=1.5); kl_divergence=63.87 (threshold=0.5)
+pill,clean_normal_only,26,1.0061,0.0054,False,
+pill,test_natural_mixed,167,2.2982,2.1012,True,embedding_distance=2.30 (threshold=1.5); kl_divergence=2.10 (threshold=0.5)
+pill,corrupted_production,167,2.044,11.5611,True,embedding_distance=2.04 (threshold=1.5); kl_divergence=11.56 (threshold=0.5)
+screw,clean_normal_only,41,1.1249,0.051,False,
+screw,test_natural_mixed,160,1.1272,0.101,False,
+screw,corrupted_production,160,1.3643,11.8668,True,kl_divergence=11.87 (threshold=0.5)
+tile,clean_normal_only,33,0.941,0.1611,False,
+tile,test_natural_mixed,117,1.9027,1.0167,True,embedding_distance=1.90 (threshold=1.5); kl_divergence=1.02 (threshold=0.5)
+tile,corrupted_production,117,2.0916,6.844,True,embedding_distance=2.09 (threshold=1.5); kl_divergence=6.84 (threshold=0.5)
+toothbrush,clean_normal_only,12,1.0234,0.0013,False,
+toothbrush,test_natural_mixed,42,1.2855,0.182,False,
+toothbrush,corrupted_production,42,1.5075,10.2703,True,embedding_distance=1.51 (threshold=1.5); kl_divergence=10.27 (threshold=0.5)
+transistor,clean_normal_only,60,1.0114,0.6864,True,kl_divergence=0.69 (threshold=0.5)
+transistor,test_natural_mixed,100,1.2877,1.15,True,kl_divergence=1.15 (threshold=0.5)
+transistor,corrupted_production,100,2.0507,5.1844,True,embedding_distance=2.05 (threshold=1.5); kl_divergence=5.18 (threshold=0.5)
+wood,clean_normal_only,19,1.037,0.4602,False,
+wood,test_natural_mixed,79,2.0259,3.2276,True,embedding_distance=2.03 (threshold=1.5); kl_divergence=3.23 (threshold=0.5)
+wood,corrupted_production,79,2.4013,20.6962,True,embedding_distance=2.40 (threshold=1.5); kl_divergence=20.70 (threshold=0.5)
+zipper,clean_normal_only,32,0.9945,0.1056,False,
+zipper,test_natural_mixed,151,3.6577,0.4432,True,embedding_distance=3.66 (threshold=1.5)
+zipper,corrupted_production,151,3.1988,0.8473,True,embedding_distance=3.20 (threshold=1.5); kl_divergence=0.85 (threshold=0.5)

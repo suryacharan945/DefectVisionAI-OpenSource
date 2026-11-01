@@ -1,0 +1,114 @@
+[
+  {
+    "defect_type": "scratch",
+    "cause": "Abrasive contact during handling, transport, or contact with tooling/fixtures.",
+    "impact": "Cosmetic degradation; can compromise protective coatings and lead to corrosion over time.",
+    "solution": "Isolate affected units; inspect handling equipment for sharp edges or misalignment.",
+    "prevention": "Use protective padding in transport, audit fixture surfaces regularly, train handlers on proper grip points."
+  },
+  {
+    "defect_type": "crack",
+    "cause": "Mechanical stress during forming, thermal shock, or material fatigue.",
+    "impact": "Structural weakness; risk of propagation and complete failure under load.",
+    "solution": "Reject affected units; do not attempt repair on structural cracks.",
+    "prevention": "Review process parameters (cooling rate, press force); inspect raw material batch quality."
+  },
+  {
+    "defect_type": "contamination",
+    "cause": "Foreign particles introduced during molding, filling, or packaging due to unclean environment or equipment.",
+    "impact": "Product safety risk, especially for consumables or sealed products; may indicate broader process contamination.",
+    "solution": "Quarantine the batch; trace contamination source via nearby process steps.",
+    "prevention": "Increase cleanroom/line cleaning frequency, add filtration at fill points, review supplier material cleanliness."
+  },
+  {
+    "defect_type": "broken_large",
+    "cause": "Impact damage during handling, drop events, or excessive clamping force.",
+    "impact": "Product is non-functional; safety hazard if sharp edges are exposed.",
+    "solution": "Reject immediately; do not attempt field repair for structural breaks.",
+    "prevention": "Review conveyor/drop heights, audit clamp force settings, add shock-absorbing packaging."
+  },
+  {
+    "defect_type": "broken_small",
+    "cause": "Localized stress concentration, often from a pre-existing micro-crack or material defect.",
+    "impact": "May appear cosmetic but can propagate into larger structural failure under use.",
+    "solution": "Reject affected units; flag for material batch review if recurring.",
+    "prevention": "Incoming material inspection, reduce stress concentrators in mold/die design."
+  },
+  {
+    "defect_type": "bent_wire",
+    "cause": "Excess mechanical force during assembly, coiling, or automated pick-and-place misalignment.",
+    "impact": "May cause electrical shorts, intermittent connections, or complete circuit failure.",
+    "solution": "Reject and inspect assembly tooling for calibration drift.",
+    "prevention": "Regular calibration of pick-and-place equipment, softer gripper materials, wire tension control."
+  },
+  {
+    "defect_type": "missing_cable",
+    "cause": "Assembly step skipped or component not seated correctly during automated/manual assembly.",
+    "impact": "Product is non-functional; safety-critical if the missing component is protective.",
+    "solution": "Route to rework station for component insertion and re-test.",
+    "prevention": "Add in-line presence-detection sensors, operator checklist audits, assembly step verification."
+  },
+  {
+    "defect_type": "cut_inner_insulation",
+    "cause": "Excessive stripping force during wire preparation, or sharp tooling contact.",
+    "impact": "Risk of internal short circuit, safety hazard in powered applications.",
+    "solution": "Reject unit; recalibrate stripping tool tolerance.",
+    "prevention": "Regular tool wear inspection, use of tolerance-controlled automated strippers."
+  },
+  {
+    "defect_type": "cut_outer_insulation",
+    "cause": "Abrasion or cutting contact during handling, routing, or installation.",
+    "impact": "Reduced protection against moisture/electrical contact; potential safety hazard.",
+    "solution": "Reject or repair with certified insulation tape/sleeve if within spec tolerance.",
+    "prevention": "Route cables away from sharp edges, use protective conduit in high-contact zones."
+  },
+  {
+    "defect_type": "poke",
+    "cause": "Puncture from sharp object contact during handling or packaging.",
+    "impact": "Compromises seal integrity (for capsules/sealed products) or surface protection.",
+    "solution": "Reject affected units; inspect packaging line for protruding hardware.",
+    "prevention": "Audit packaging line for sharp edges, use puncture-resistant transport trays."
+  },
+  {
+    "defect_type": "color",
+    "cause": "Inconsistent pigment mixing, curing temperature variation, or raw material batch variance.",
+    "impact": "Cosmetic defect; may indicate underlying process drift affecting other properties.",
+    "solution": "Flag batch for QC review; check colorant mixing ratios.",
+    "prevention": "Tighter process control on mixing/curing parameters, incoming pigment batch testing."
+  },
+  {
+    "defect_type": "print",
+    "cause": "Print head misalignment, ink viscosity variation, or substrate surface irregularity.",
+    "impact": "Cosmetic and potentially functional if print carries safety/regulatory information.",
+    "solution": "Recalibrate print head; reject unreadable safety-critical prints.",
+    "prevention": "Scheduled print head maintenance, ink viscosity monitoring."
+  },
+  {
+    "defect_type": "gray_stroke",
+    "cause": "Surface finishing inconsistency or tooling mark left during production.",
+    "impact": "Cosmetic defect; generally does not affect structural integrity.",
+    "solution": "Flag for cosmetic-grade downgrade or rework if within polish tolerance.",
+    "prevention": "Audit finishing tool condition and pressure settings."
+  },
+  {
+    "defect_type": "combined",
+    "cause": "Multiple simultaneous defect mechanisms, often indicating a broader process or material issue rather than an isolated event.",
+    "impact": "Compounded risk; treat with the highest severity of any individual contributing defect.",
+    "solution": "Full unit inspection recommended; investigate whether defects share a common root cause.",
+    "prevention": "Root-cause analysis across the full production step, not just the immediate defect."
+  },
+  {
+    "defect_type": "misplaced",
+    "cause": "Component placement error during automated assembly, often from vibration, feeder misalignment, or calibration drift.",
+    "impact": "May cause functional failure or downstream assembly issues.",
+    "solution": "Route to rework; verify placement against reference template.",
+    "prevention": "Regular feeder/placement machine calibration, vision-guided placement verification."
+  },
+  {
+    "defect_type": "stitching_failure",
+    "cause": "Thread tension inconsistency, needle wear, or material misfeed during stitching.",
+    "impact": "Seam integrity compromised; risk of separation under stress or during use.",
+    "solution": "Reject and reinforce seam if within rework tolerance; otherwise scrap.",
+    "prevention": "Scheduled needle replacement, thread tension calibration checks."
+  }
+]

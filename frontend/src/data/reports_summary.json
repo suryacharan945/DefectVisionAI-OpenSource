@@ -1,0 +1,89 @@
+{
+  "project": "DefectVision AI",
+  "dataset": "MVTec AD",
+  "n_categories": 15,
+  "model_comparison": [
+    {
+      "Model": "EfficientNet-B0 (v3, leak-free)",
+      "Mean Category AUROC": 0.9732,
+      "Accuracy": 0.8692,
+      "Precision": 0.9981,
+      "Recall": 0.8224,
+      "F1": 0.9018,
+      "Images Evaluated": 856
+    },
+    {
+      "Model": "PatchCore",
+      "Mean Category AUROC": 0.9651,
+      "Accuracy": 0.7383,
+      "Precision": 0.974,
+      "Recall": 0.6592,
+      "F1": 0.7863,
+      "Images Evaluated": 856
+    },
+    {
+      "Model": "PaDiM",
+      "Mean Category AUROC": 0.8911,
+      "Accuracy": 0.6916,
+      "Precision": 0.9267,
+      "Recall": 0.6272,
+      "F1": 0.7481,
+      "Images Evaluated": 856
+    },
+    {
+      "Model": "Autoencoder",
+      "Mean Category AUROC": 0.6872,
+      "Accuracy": 0.5911,
+      "Precision": 0.8251,
+      "Recall": 0.5584,
+      "F1": 0.666,
+      "Images Evaluated": 856
+    }
+  ],
+  "severity_scoring": {
+    "mean_severity_normal": 21.35,
+    "mean_severity_defective": 67.05,
+    "pct_defective_flagged_critical": 72.18,
+    "pct_normal_falsely_critical": 0.86
+  },
+  "active_learning": {
+    "review_budget_pct_at_50pct_error_capture": null,
+    "errors_captured_at_10pct_review_budget": 48.0
+  },
+  "drift_detection": {
+    "clean_normal_only": {
+      "categories_alerted": 1,
+      "total_categories": 15,
+      "mean_kl_divergence": 0.155,
+      "mean_embedding_distance": 1.0474
+    },
+    "test_natural_mixed": {
+      "categories_alerted": 13,
+      "total_categories": 15,
+      "mean_kl_divergence": 1.3035,
+      "mean_embedding_distance": 1.9574
+    },
+    "corrupted_production": {
+      "categories_alerted": 15,
+      "total_categories": 15,
+      "mean_kl_divergence": 13.9819,
+      "mean_embedding_distance": 2.2094
+    }
+  },
+  "similarity_search_gallery_size": 5354,
+  "gradcam_explainability": {
+    "Step": "Grad-CAM Explainability",
+    "Total Images Processed": 815,
+    "Avg Confidence (defective)": 0.9767623711340204,
+    "Avg Confidence (normal)": 0.9936573268921096,
+    "Avg Defect Area % (defective only)": 10.779845360824742,
+    "Avg GT IoU (where mask available)": 0.1841505154639175
+  },
+  "key_findings": [
+    "PatchCore achieves 0.9651 mean AUROC, the strongest fully-unsupervised anomaly detector evaluated.",
+    "Leak-free supervised EfficientNet-B0 reaches 0.9732 mean AUROC on the shared benchmark, competitive with PatchCore despite using far less labeled data than a full supervised pipeline would typically require.",
+    "Grad-CAM (classification-head based) achieves only 0.1841505154639175 mean IoU against ground truth, motivating the need for dedicated localization methods (PaDiM, PatchCore) used elsewhere in this pipeline.",
+    "Uncertainty-based active learning concentrates 48.0% of total model errors within roughly 10% of the review budget, demonstrating meaningful labeling-effort reduction.",
+    "Drift detection shows a clean escalating response across clean/natural/corrupted production streams, validating that both KL divergence and embedding distance distinguish genuine distribution shift from normal variation."
+  ]
+}

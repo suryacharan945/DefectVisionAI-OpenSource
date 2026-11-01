@@ -1,0 +1,5 @@
+{
+    "threshold": 462.17779541015625,
+    "percentile": 99,
+    "method": "normal_validation_patch_score_percentile"
+}

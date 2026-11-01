@@ -1,0 +1,111 @@
+{
+  "batch_id": "demo_150img_batch",
+  "status": "completed",
+  "progress": 150,
+  "total": 150,
+  "report": {
+    "batch_id": "demo_150img_batch",
+    "timestamp": "2026-08-19 10:07:59",
+    "total_inspected": 150,
+    "defective_count": 97,
+    "normal_count": 53,
+    "defect_rate_pct": 64.67,
+    "severity_distribution": {
+      "Critical": 81,
+      "Minor": 45,
+      "Moderate": 24
+    },
+    "category_breakdown": [
+      {
+        "category": "bottle",
+        "total": 10,
+        "defective": 10,
+        "defect_rate_pct": 100.0
+      },
+      {
+        "category": "cable",
+        "total": 10,
+        "defective": 3,
+        "defect_rate_pct": 30.0
+      },
+      {
+        "category": "capsule",
+        "total": 10,
+        "defective": 7,
+        "defect_rate_pct": 70.0
+      },
+      {
+        "category": "carpet",
+        "total": 10,
+        "defective": 6,
+        "defect_rate_pct": 60.0
+      },
+      {
+        "category": "grid",
+        "total": 10,
+        "defective": 9,
+        "defect_rate_pct": 90.0
+      },
+      {
+        "category": "hazelnut",
+        "total": 10,
+        "defective": 7,
+        "defect_rate_pct": 70.0
+      },
+      {
+        "category": "leather",
+        "total": 10,
+        "defective": 8,
+        "defect_rate_pct": 80.0
+      },
+      {
+        "category": "metal_nut",
+        "total": 10,
+        "defective": 8,
+        "defect_rate_pct": 80.0
+      },
+      {
+        "category": "pill",
+        "total": 10,
+        "defective": 8,
+        "defect_rate_pct": 80.0
+      },
+      {
+        "category": "screw",
+        "total": 10,
+        "defective": 6,
+        "defect_rate_pct": 60.0
+      },
+      {
+        "category": "tile",
+        "total": 10,
+        "defective": 6,
+        "defect_rate_pct": 60.0
+      },
+      {
+        "category": "toothbrush",
+        "total": 10,
+        "defective": 5,
+        "defect_rate_pct": 50.0
+      },
+      {
+        "category": "transistor",
+        "total": 10,
+        "defective": 3,
+        "defect_rate_pct": 30.0
+      },
+      {
+        "category": "wood",
+        "total": 10,
+        "defective": 6,
+        "defect_rate_pct": 60.0
+      },
+      {
+        "category": "zipper",
+        "total": 10,
+        "defective": 5,
+        "defect_rate_pct": 50.0
+      }
+    ]
+  }
+}

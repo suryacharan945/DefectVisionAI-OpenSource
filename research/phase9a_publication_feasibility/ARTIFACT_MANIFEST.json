@@ -1,0 +1,51 @@
+{
+  "phase": "9A",
+  "phase_name": "Research Reset and Publication Feasibility",
+  "timestamp_utc": "2026-10-31T18:34:59Z",
+  "final_decision": "NO-GO \u2014 PRIORITIZE PRODUCT AND PORTFOLIO",
+  "contingency_decision": "GO \u2014 APPLIED SYSTEMS PAPER (Conditional on mandatory academic indexing)",
+  "files": [
+    {
+      "filename": "RESEARCH_HISTORY_SUMMARY.md",
+      "relative_path": "research/phase9a_publication_feasibility/RESEARCH_HISTORY_SUMMARY.md",
+      "sha256": "9026c82b2ae66a70d1527d1cc35d9abd0b399009a19dc3666efef6a7fa53ccdb",
+      "size_bytes": 8898
+    },
+    {
+      "filename": "CLOSEST_RELATED_WORK.md",
+      "relative_path": "research/phase9a_publication_feasibility/CLOSEST_RELATED_WORK.md",
+      "sha256": "25165929f0470c4e87191cf6d20739f4b1711eccce827aca5549db258a2fe2f8",
+      "size_bytes": 11685
+    },
+    {
+      "filename": "EMPIRICAL_RESEARCH_QUESTION.md",
+      "relative_path": "research/phase9a_publication_feasibility/EMPIRICAL_RESEARCH_QUESTION.md",
+      "sha256": "8af107058e1cab6455a6524615be01e4c82e3b9522a03cfd39dd9b1f88bd8d68",
+      "size_bytes": 8082
+    },
+    {
+      "filename": "BENCHMARK_DESIGN.md",
+      "relative_path": "research/phase9a_publication_feasibility/BENCHMARK_DESIGN.md",
+      "sha256": "4c210e8c5dd2dea1c9665286a5fe7382fd0523adad8221c9c10abe1c05fb0a18",
+      "size_bytes": 10930
+    },
+    {
+      "filename": "DATA_AND_COMPUTE_FEASIBILITY.md",
+      "relative_path": "research/phase9a_publication_feasibility/DATA_AND_COMPUTE_FEASIBILITY.md",
+      "sha256": "bd1938901fe87a0e1ae42178196f1ba177a35f18737cbf03d04c033b87156db6",
+      "size_bytes": 6639
+    },
+    {
+      "filename": "PUBLICATION_PATH_ASSESSMENT.md",
+      "relative_path": "research/phase9a_publication_feasibility/PUBLICATION_PATH_ASSESSMENT.md",
+      "sha256": "67a67baffaf3016cb32a5dad6555505a7a74585a0050b178202f3e5850bcc31c",
+      "size_bytes": 9907
+    },
+    {
+      "filename": "FINAL_GO_NO_GO.md",
+      "relative_path": "research/phase9a_publication_feasibility/FINAL_GO_NO_GO.md",
+      "sha256": "15385b5e0eb9198ee3ff179e52bf7ea71a837fc155fada4328676e17813b6db7",
+      "size_bytes": 6788
+    }
+  ]
+}

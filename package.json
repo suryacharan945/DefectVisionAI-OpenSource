@@ -1,0 +1,15 @@
+{
+  "name": "defectvision-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DefectVision AI — Production-Grade 3D Optical Inspection Platform",
+  "scripts": {
+    "postinstall": "npm install --prefix frontend --legacy-peer-deps",
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.16.0"
+  }
+}

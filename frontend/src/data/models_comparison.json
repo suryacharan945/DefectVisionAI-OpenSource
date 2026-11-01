@@ -1,0 +1,38 @@
+[
+  {
+    "Model": "EfficientNet-B0 (v3, leak-free)",
+    "Mean Category AUROC": 0.9732,
+    "Accuracy": 0.8692,
+    "Precision": 0.9981,
+    "Recall": 0.8224,
+    "F1": 0.9018,
+    "Images Evaluated": 856
+  },
+  {
+    "Model": "PatchCore",
+    "Mean Category AUROC": 0.9651,
+    "Accuracy": 0.7383,
+    "Precision": 0.974,
+    "Recall": 0.6592,
+    "F1": 0.7863,
+    "Images Evaluated": 856
+  },
+  {
+    "Model": "PaDiM",
+    "Mean Category AUROC": 0.8911,
+    "Accuracy": 0.6916,
+    "Precision": 0.9267,
+    "Recall": 0.6272,
+    "F1": 0.7481,
+    "Images Evaluated": 856
+  },
+  {
+    "Model": "Autoencoder",
+    "Mean Category AUROC": 0.6872,
+    "Accuracy": 0.5911,
+    "Precision": 0.8251,
+    "Recall": 0.5584,
+    "F1": 0.666,
+    "Images Evaluated": 856
+  }
+]

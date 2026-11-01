@@ -1,0 +1,197 @@
+[
+  {
+    "category": "bottle",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/bottle_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "cable",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/cable_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "capsule",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/capsule_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "carpet",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/carpet_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "grid",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/grid_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "hazelnut",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/hazelnut_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "leather",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/leather_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "metal_nut",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/metal_nut_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "pill",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/pill_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "screw",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/screw_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "tile",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/tile_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "toothbrush",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/toothbrush_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "transistor",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/transistor_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "wood",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/wood_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "zipper",
+    "has_sample": true,
+    "sample_url": "/outputs/similarity_search_samples/zipper_similarity_demo.png",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  }
+]

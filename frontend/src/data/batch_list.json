@@ -1,0 +1,15 @@
+[
+  {
+    "batch_id": "demo_150img_batch",
+    "total_inspected": 150,
+    "defective_count": 97,
+    "normal_count": 53,
+    "defect_rate_pct": 64.67,
+    "severity_distribution": {
+      "Critical": 81,
+      "Minor": 45,
+      "Moderate": 24
+    },
+    "timestamp": "2026-08-19 10:07:59"
+  }
+]

@@ -1,0 +1,5 @@
+Model,Mean Category AUROC,Accuracy,Precision,Recall,F1,Images Evaluated
+"EfficientNet-B0 (v3, leak-free)",0.9732,0.8692,0.9981,0.8224,0.9018,856
+PatchCore,0.9651,0.7383,0.974,0.6592,0.7863,856
+PaDiM,0.8911,0.6916,0.9267,0.6272,0.7481,856
+Autoencoder,0.6872,0.5911,0.8251,0.5584,0.666,856

@@ -1,0 +1,58 @@
+[
+  {
+    "uncertainty_threshold": 0.1,
+    "n_flagged": 168,
+    "pct_of_dataset": 9.7,
+    "errors_captured": 61,
+    "pct_of_total_errors_captured": 48.0
+  },
+  {
+    "uncertainty_threshold": 0.2,
+    "n_flagged": 133,
+    "pct_of_dataset": 7.7,
+    "errors_captured": 48,
+    "pct_of_total_errors_captured": 37.8
+  },
+  {
+    "uncertainty_threshold": 0.3,
+    "n_flagged": 103,
+    "pct_of_dataset": 6.0,
+    "errors_captured": 38,
+    "pct_of_total_errors_captured": 29.9
+  },
+  {
+    "uncertainty_threshold": 0.4,
+    "n_flagged": 82,
+    "pct_of_dataset": 4.8,
+    "errors_captured": 32,
+    "pct_of_total_errors_captured": 25.2
+  },
+  {
+    "uncertainty_threshold": 0.5,
+    "n_flagged": 67,
+    "pct_of_dataset": 3.9,
+    "errors_captured": 27,
+    "pct_of_total_errors_captured": 21.3
+  },
+  {
+    "uncertainty_threshold": 0.6,
+    "n_flagged": 48,
+    "pct_of_dataset": 2.8,
+    "errors_captured": 21,
+    "pct_of_total_errors_captured": 16.5
+  },
+  {
+    "uncertainty_threshold": 0.7,
+    "n_flagged": 36,
+    "pct_of_dataset": 2.1,
+    "errors_captured": 16,
+    "pct_of_total_errors_captured": 12.6
+  },
+  {
+    "uncertainty_threshold": 0.8,
+    "n_flagged": 21,
+    "pct_of_dataset": 1.2,
+    "errors_captured": 9,
+    "pct_of_total_errors_captured": 7.1
+  }
+]

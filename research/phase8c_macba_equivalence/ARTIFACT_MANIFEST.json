@@ -1,0 +1,50 @@
+{
+  "phase": "8C",
+  "phase_name": "MACBA Equivalence and Novelty Gate",
+  "timestamp_utc": "2026-10-31T18:27:09Z",
+  "gate_decision": "STANDARD METHOD EQUIVALENCE",
+  "files": [
+    {
+      "filename": "BL6_MACBA_DECISION_TRACE.csv",
+      "relative_path": "research/phase8c_macba_equivalence/BL6_MACBA_DECISION_TRACE.csv",
+      "sha256": "41d66b936a2ce75983d5d468c432a3286099b72bba38f54ed8cfbd8f36f7261e",
+      "size_bytes": 158730
+    },
+    {
+      "filename": "MATHEMATICAL_EQUIVALENCE_ANALYSIS.md",
+      "relative_path": "research/phase8c_macba_equivalence/MATHEMATICAL_EQUIVALENCE_ANALYSIS.md",
+      "sha256": "40157e74483d190b2feed597d490daa9adf68712e87b27384a8cfbb5b798d133",
+      "size_bytes": 11947
+    },
+    {
+      "filename": "SYMMETRIC_COST_DISCREPANCY.md",
+      "relative_path": "research/phase8c_macba_equivalence/SYMMETRIC_COST_DISCREPANCY.md",
+      "sha256": "9827c3fccb6f33c28ef175c69825617c02b3f55268b41ac2d85a7d5dc17c89c5",
+      "size_bytes": 10477
+    },
+    {
+      "filename": "CONSTRAINT_NOVELTY_ASSESSMENT.md",
+      "relative_path": "research/phase8c_macba_equivalence/CONSTRAINT_NOVELTY_ASSESSMENT.md",
+      "sha256": "473c98dd8f934f27522277de691c1c383cd28bd0884442bcdef51816a16e18e6",
+      "size_bytes": 14200
+    },
+    {
+      "filename": "CORRECTED_STATISTICAL_CLAIMS.md",
+      "relative_path": "research/phase8c_macba_equivalence/CORRECTED_STATISTICAL_CLAIMS.md",
+      "sha256": "43ea6fecf02b12ae1432fc96884264ec54f7a71a5370049de1a7a91dd2340d9a",
+      "size_bytes": 10616
+    },
+    {
+      "filename": "FINAL_RESEARCH_GATE.md",
+      "relative_path": "research/phase8c_macba_equivalence/FINAL_RESEARCH_GATE.md",
+      "sha256": "cbc74f862028fb9d7d179e8b0c662b707474cbcfebe0fa69078d17ba9b1b7e09",
+      "size_bytes": 6404
+    },
+    {
+      "filename": "SUMMARY_EQUIVALENCE_METRICS.csv",
+      "relative_path": "research/phase8c_macba_equivalence/SUMMARY_EQUIVALENCE_METRICS.csv",
+      "sha256": "b1ec467c0b0a3e3358c13b6fb2f386df8dcd7268a817061f9e0361976e6b2826",
+      "size_bytes": 6484
+    }
+  ]
+}

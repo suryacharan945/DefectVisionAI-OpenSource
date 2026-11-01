@@ -1,0 +1,227 @@
+[
+  {
+    "category": "bottle",
+    "title": "Bottle",
+    "filename": "bottle_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/bottle_similarity_demo.png",
+    "description": "Large structural fracture along bottle sidewall",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "cable",
+    "title": "Cable",
+    "filename": "cable_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/cable_similarity_demo.png",
+    "description": "Cable missing conductor strand / deformed wire",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "capsule",
+    "title": "Capsule",
+    "filename": "capsule_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/capsule_similarity_demo.png",
+    "description": "Capsule squeeze and surface coating defect",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "carpet",
+    "title": "Carpet",
+    "filename": "carpet_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/carpet_similarity_demo.png",
+    "description": "Carpet weave puncture / localized fiber defect",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "grid",
+    "title": "Grid",
+    "filename": "grid_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/grid_similarity_demo.png",
+    "description": "Metal grid bent wire and mesh distortion",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "hazelnut",
+    "title": "Hazelnut",
+    "filename": "hazelnut_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/hazelnut_similarity_demo.png",
+    "description": "Cracked shell and outer hull hole",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "leather",
+    "title": "Leather",
+    "filename": "leather_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/leather_similarity_demo.png",
+    "description": "Surface fold, crease, and color stain defect",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "metal_nut",
+    "title": "Metal Nut",
+    "filename": "metal_nut_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/metal_nut_similarity_demo.png",
+    "description": "Nut thread scratch / heavy metal indentation",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "pill",
+    "title": "Pill",
+    "filename": "pill_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/pill_similarity_demo.png",
+    "description": "Pill contamination / crack on tablet coating",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "screw",
+    "title": "Screw",
+    "filename": "screw_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/screw_similarity_demo.png",
+    "description": "Thread damage / deformed screw head",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "tile",
+    "title": "Tile",
+    "filename": "tile_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/tile_similarity_demo.png",
+    "description": "Ceramic tile deep crack / glaze scratch",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "toothbrush",
+    "title": "Toothbrush",
+    "filename": "toothbrush_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/toothbrush_similarity_demo.png",
+    "description": "Bristle defect / misaligned tuft pattern",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "transistor",
+    "title": "Transistor",
+    "filename": "transistor_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/transistor_similarity_demo.png",
+    "description": "Bent lead / semiconductor casing crack",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "wood",
+    "title": "Wood",
+    "filename": "wood_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/wood_similarity_demo.png",
+    "description": "Wood grain scratch and surface hole",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  },
+  {
+    "category": "zipper",
+    "title": "Zipper",
+    "filename": "zipper_similarity_demo.png",
+    "image_url": "/outputs/similarity_search_samples/zipper_similarity_demo.png",
+    "description": "Broken zipper tooth / fabric tape tear",
+    "baseline": {
+      "mean_normal": 0.1,
+      "std_normal": 0.05,
+      "threshold_patchcore": 0.5,
+      "minor_threshold": 0.4,
+      "moderate_threshold": 0.6,
+      "critical_threshold": 0.8
+    }
+  }
+]
